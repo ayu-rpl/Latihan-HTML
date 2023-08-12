@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<body>
+    <title>Tabel</title>
+    <style>
+        table {
+            border-collapse: collapse; 
+        }
+        table, th, td {
+            border: 1px solid grey;
+            height: 30px;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: whitesmoke;
+        }
+    </style>
+     <h1 text align="left">Latihan Tabel</h1>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </tr>
+
+        <tr>
+        <td rowspan="2" style="background-color:pink";>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+        <td>Cell 4</td>
+        
+        </tr>
+
+        <tr>
+            <td colspan="2" style="background-color:bisque">Cell 2 and Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+        
+        <tr>
+            <td>Cell 1</td>
+            <td rowspan="2" colspan="2" style="background-color: orchid">Cell 2, Cell 3 and Cell 4</td>
+            <td>Cell 4</td>
+        </tr>
+
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 4</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
