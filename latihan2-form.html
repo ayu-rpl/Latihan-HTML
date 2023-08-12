@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 text align="center">Formulir Pendataan Siswa</h1>
+    <form>
+        <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+        
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+        
+                <label for="usia">Usia:</label><br>
+                <input type="number" id="usia" name="usia" required><br>
+        
+                <label for="date">Tanggal Lahir:</label><br>
+                <input type="date" id="tanggal lahir" name="tanggal lahir" required, placeholder="mm/ dd/ yyyy"><br>
+        
+                <label for="hobby">Hobi:</label><br>
+                <input type="checkbox" id="hobi" name="hobi[]" required, value="Membaca Buku">Membaca Buku
+                <input type="checkbox" id="hobi" name="hobi[]" required, value="Menonton">Menonton
+                <input type="checkbox" id="hobi" name="hobi[]" required, value="Berbelanja">Berbelanja<br>
+                <input type="checkbox" id="hobi" name="hobi[]" required, value="Travelling">Travelling
+                <input type="checkbox" id="hobi" name="hobi[]" required, value="Olahraa">Olahraga<br>
+        
+                <label for="old">Sodara Kandung:</label><br>
+                <input type="radio" id="Sodara Kandung" name="Sodara Kandung" required, value="1">1
+                <input type="radio" id="Sodara Kandung" name="Sodara Kandung" required, value="2">2
+                <input type="radio" id="Sodara Kandung" name="Sodara Kandung" required, value="3">3
+                <input type="radio" id="Sodara Kandung" name="Sodara Kandung" required, value="4">4
+                <input type="radio" id="Sodara Kandung" name="Sodara Kandung" required, value="5">5<br>
+        
+                <label for="Class">Kelas:</label><br>
+                <select>
+                    <option value="Pilih Kelas">-- Pilih Kelas</option>
+                    <option value="XI RPL 1">XI RPL 1</option>
+                    <option value="XI RPL 2">XI RPL 2</option>
+                    <option value="XI RPL 3">XI RPL 3</option>
+                    <option value="XI TBSM 1">XI TBSM 1</option>
+                    <option value="XI TBSM 2">XI TBSM 2</option>
+                    <option value="XI TBSM 3">XI TBSM 3</option>
+                    <option value="XI TAV 1">XI TAV 1</option>
+                    <option value="XI TAV 2">XI TAV 2</option>
+                    <option value="XI TAV 3">XI TAV 3</option>
+                    <option value="XI DPIB 1">XI DPIB 1</option>
+                    <option value="XI DPIB 2">XI DPIB 2</option>
+                    <option value="XI DPIB 3">XI DPIB 3</option>
+                </select><br>
+                
+                <label for="old">Kesan dan Pesan:</label><br>
+        
+                <textarea type="text" id="Kesan dan Pesan" name="Kesan dan Pesan" name="" ID="" COLS="50" ROWS="10" style="widht: 100;"></textarea><br>
+                
+                <button type="submit" oneclick="alert('Your data has been submitted succesfully!')">Kirim</button>
+               
+</body>
+</html>
